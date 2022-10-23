@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Which dir am I in bitch
+      run: ls
     - name: Install Deps
       run: bash ./cocos2d/install-deps-linux.sh
     - name: Cmake
